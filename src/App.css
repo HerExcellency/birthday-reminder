@@ -41,24 +41,41 @@ body {
 }
 
 .img-style-1 {
-  width: 60px;
-  height: 60px;
+  width: 72px;
+  height: 72px;
   border-radius: 50%;
 }
 .remBirth{
-  width: 60%;
-    margin: auto;
+    width: 40%;
     border: 1px solid #fff;
-    padding: auto;
     display: grid;
     justify-content: center;
     padding-bottom: 10px;
+    background-color: #fff;
+    margin: 10% auto;
+    border-radius: 10px;
 } 
 .listArticle{
   
     margin: auto;
-    /* border: 1px solid #fff; */
     padding: auto;
     display: grid;
-    justify-content: 
+    justify-items: center;
+}
+.listArticle h4, .listArticle p{
+  margin-bottom: 2px;
+  margin-top: 2px;
+  padding-left: auto;
+  display: flex;
+  justify-content: center;
+}
+button{
+  margin-top: 6%;
+  padding: 9px 10px;
+  margin-bottom: 3%;
+  border-radius: 3px;
+  border: solid 1px #f28ab2;
+  background-color: #f28ab2;
+  color: #fff;
+
 }
